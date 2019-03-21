@@ -364,7 +364,8 @@ CDAs, and evangelist teams.
     -   Azure AppService w/ SQL Azure
 
     -   Linux Container on AppService w/ SQL Azure (ability to change base image
-        - special environmental dependencies)
+
+        -   special environmental dependencies)
 
     -   AppService w/ CosmosDB
 
@@ -411,58 +412,3 @@ CDAs, and evangelist teams.
 
     -   Paul Yuck (talk to him). From Azure Monitoring, you can file a VSTS
         ticket from Azure portal.
-
-12. Modernizing a full framework app to DevOps (might be an existing ebook?
-    Cesar?)
-    https://dotnet.microsoft.com/download/thank-you/modernizing-existing-net-apps-ebook
-    https://dotnet.microsoft.com/learn/dotnet/architecture-guides
-
-    -   Principles
-
-    -   Tool setup (.NET 4.6.2 (netstandard2))
-
-    -   Walkthrough of full framework solution template enabled for DevOps
-
-    -   Caveats and holes for reader to fill in
-
-13. How to make an architectural change in a DevOps environment
-
-    -   Principles (design considerations) (add off-line job to application)
-
-    -   Architectural options overview
-
-    -   Addition of back-end job (Webjob)
-
-    -   Infrastructure changes on branch
-
-    -   On-line database changes
-
-    -   Production roll-out
-
-14. Advanced deployment options
-
-    -   Principles (design options)
-
-    -   Take same app and create pipeline targeting each of the following
-        runtime topologies - this chapter may get too big and may have to be
-        broken up into several.
-
-    -   Azure service fabric (Maybe)
-
-    -   Scaled app service
-
-    -   On-premise or VM w/ deployment groups
-
-    -   CosmosDB
-
-    -   SQL Managed instances for complex databases
-
-15. How to choose between competing options (Scott & Cesar)
-
-16. Conclusion
-
-    -   Review of architecture/build/testing loop
-
-    -   Review "rules of thumb" or 80/20 rule
-
-    -   Cover resources for further study
